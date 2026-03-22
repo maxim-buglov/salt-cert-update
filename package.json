@@ -1,0 +1,12 @@
+{
+  "name": "salt-cert-update",
+  "version": "1.0.0",
+  "description": "Automated SSL certificate updates via Salt Stack and Node.js.",
+  "main": "scripts/update_certificates.js",
+  "scripts": {
+    "start": "node scripts/update_certificates.js"
+  },
+  "keywords": ["salt", "saltstack", "ssl", "certificates"],
+  "author": "",
+  "license": "MIT"
+}
