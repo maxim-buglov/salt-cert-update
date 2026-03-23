@@ -1,5 +1,3 @@
-# Pillar конфигурация для обновления сертификатов
-
 certificates:
   url: 'https://cert-server.example.com/certs/'
   target_dir: '/etc/ssl/certs'
