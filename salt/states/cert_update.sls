@@ -1,6 +1,3 @@
-# Certificate updater state
-# Usage: salt '*' state.apply cert_update
-
 {% set config = salt['pillar.get']('certificates', {}) %}
 
 # Deploy script
